@@ -6,6 +6,7 @@ import ButtonWithProps from "./components/ButtonWithProps";
 import ButtonWithAttribute from "./components/ButtonWithAttribute";
 import ContainerSamples from "./components/ContainerSamples";
 import FlexSample from "./components/FlexSample";
+import ButtonSamples from "./components/ButtonSamples";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           </ButtonWithAttribute>
           <ContainerSamples />
           <FlexSample />
+          <ButtonSamples />
         </div>
       </header>
     </div>
