@@ -8,6 +8,7 @@ import ContainerSamples from "./components/ContainerSamples";
 import FlexSample from "./components/FlexSample";
 import ButtonSamples from "./components/ButtonSamples";
 import CardSamples from "./components/CardSamples";
+import HeadingSamples from "./components/HeadingSamples";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <FlexSample />
           <ButtonSamples />
           <CardSamples />
+          <HeadingSamples />
         </div>
       </header>
     </div>
