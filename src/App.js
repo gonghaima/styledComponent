@@ -4,6 +4,7 @@ import "./App.css";
 import BasicButton from "./components/BasicButton";
 import ButtonWithProps from "./components/ButtonWithProps";
 import ButtonWithAttribute from "./components/ButtonWithAttribute";
+import ContainerSamples from "./components/ContainerSamples";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <ButtonWithAttribute inverse big>
             Button with attr 3
           </ButtonWithAttribute>
+          <ContainerSamples />
         </div>
       </header>
     </div>
