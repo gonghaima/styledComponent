@@ -1,3 +1,5 @@
+https://levelup.gitconnected.com/building-a-reusable-component-system-with-react-js-and-styled-components-4e9f1018a31c
+
 Coding and Design. A love / hate relationship. Some developers dread the tedious task of implementing design guidelines provided by UX / UI Designers, others love to make things beautiful. I identify with the latter, but at the same time, why not build a smart system that will reduce the time and confusion in adopting design guidelines. We will have a look at how to create a Component System that makes your development process stupidly fast and still follows and enforces design guidelines.
 
 I will first introduce the styled-components library and then show you how to build a design system with it.
