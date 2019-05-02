@@ -7,6 +7,7 @@ import ButtonWithAttribute from "./components/ButtonWithAttribute";
 import ContainerSamples from "./components/ContainerSamples";
 import FlexSample from "./components/FlexSample";
 import ButtonSamples from "./components/ButtonSamples";
+import CardSamples from "./components/CardSamples";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <ContainerSamples />
           <FlexSample />
           <ButtonSamples />
+          <CardSamples />
         </div>
       </header>
     </div>
