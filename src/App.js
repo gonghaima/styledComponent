@@ -5,6 +5,7 @@ import BasicButton from "./components/BasicButton";
 import ButtonWithProps from "./components/ButtonWithProps";
 import ButtonWithAttribute from "./components/ButtonWithAttribute";
 import ContainerSamples from "./components/ContainerSamples";
+import FlexSample from "./components/FlexSample";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
             Button with attr 3
           </ButtonWithAttribute>
           <ContainerSamples />
+          <FlexSample />
         </div>
       </header>
     </div>
