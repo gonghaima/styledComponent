@@ -3,6 +3,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import BasicButton from "./components/BasicButton";
 import ButtonWithProps from "./components/ButtonWithProps";
+import ButtonWithAttribute from "./components/ButtonWithAttribute";
 
 function App() {
   return (
@@ -10,6 +11,15 @@ function App() {
       <header className="App-header">
         <BasicButton />
         <ButtonWithProps />
+        <div>
+          <ButtonWithAttribute>Button with attr 1</ButtonWithAttribute>
+          <ButtonWithAttribute secondary>
+            Button with attr 2
+          </ButtonWithAttribute>
+          <ButtonWithAttribute inverse big>
+            Button with attr 3
+          </ButtonWithAttribute>
+        </div>
       </header>
     </div>
   );
